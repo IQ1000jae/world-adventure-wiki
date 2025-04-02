@@ -15,6 +15,16 @@ body{
 }
 .top_bar{
   background:#b8e9ff;
-  padding:1em;
+  padding:1em; 
+  display: flex; 
+  align-items: center;
   position:absolute;
+}
+.top_bar h1 {
+    margin-top:1vw;
+    margin-top:1vw;
+    margin-left: 75vw;
+}
+.top_bar input {
+    margin-left: 75vw;
 }
