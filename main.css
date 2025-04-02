@@ -1,9 +1,12 @@
 #top h1{
   display:inline-block;
   font-size:7vw;
+  margin-top: 0px;
+  margin-left: 7vw;
 }
 #top img{
   display:inline-block;
   width: 7vw;
   height: auto;
+  position: absolute;
 }
