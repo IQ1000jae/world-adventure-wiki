@@ -1,4 +1,9 @@
 #top h1{
-  display:inline;
+  display:inline-block;
+  font-size:7vw;
 }
-
+#top img{
+  display:inline-block;
+  width: 7vw;
+  height: auto;
+}
