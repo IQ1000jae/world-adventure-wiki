@@ -7,9 +7,9 @@ body{
 #top h1 {
     display: inline-block;
     font-size: 7vw;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 7vw;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #top img{
     display:inline-block;
@@ -19,10 +19,9 @@ body{
 }
 .top_bar {
     background: #58ccff;
-    padding: 1em;
-    padding-bottom: 1.5em;
+    padding: 1em 1em 1.5em 1em;
     position: absolute;
-    top: 0px;
+    top: 0;
     z-index: -1;
     width: 100vw;
 }
@@ -33,7 +32,29 @@ body{
     left: 83vw;
 }
 .top_bar input {
-    margin-left: 70vw;
-    margin-top: 2.5vw;
-    margin-bottom: 2.5vw;
+    margin: 2.5vw 0 2.5vw 70vw;
+    width: 10vw;
+}
+.space{
+    padding: 2vw 100vw;
+    background: #f0f0f0;
+}
+.sub_title{
+    text-align: center;
+}
+.rule{
+    margin-left: 48.8%;
+}
+.list ul{
+    text-align: center;
+    list-style-type: none;
+}
+.blue{
+    color: #232b73;
+    font-weight: 800;
+}
+.list_cell{
+    position: absolute;
+    background: #232b73;
+    padding: 5vw 25vw;
 }
